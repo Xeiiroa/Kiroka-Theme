@@ -1,0 +1,28 @@
+{
+  "name": "kiroka",
+  "displayName": "Kirokas theme",
+  "description": "kiroka theme",
+  "version": "0.0.1",
+  "publisher": "Kiroka",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kiiroka/Kiroka-Theme.git"
+    
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "icon": "pfp.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kirokas theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kirokas theme-color-theme.json"
+      }
+    ]
+  }
+}
